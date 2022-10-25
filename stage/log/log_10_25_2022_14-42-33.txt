@@ -1,0 +1,23 @@
+Pipeline intiatedstage/log/log_10_25_2022_14-42-33.txt
+At 10_25_2022_14-42-33 tripadvisor_outlet.json was added to dataframe with 2300 rows
+At 10_25_2022_14-42-34 tripadvisor_reviews.json was added to dataframe with 700 rows
+At 10_25_2022_14-42-34 tripadvisor_user.json was added to dataframe with 400 rows
+At 10_25_2022_14-42-34 ubereats_menu.json was added to dataframe with 920 rows
+At 10_25_2022_14-42-34 ubereats_outlet.json was added to dataframe with 100 rows
+At 10_25_2022_14-42-34 tripadvisor_outlet.json extra columns were extracted to stage/extra_data/tripadvisor_outlet.json.csv 
+At 10_25_2022_14-42-34 tripadvisor_outlet.json has dropped extra columns 
+At 10_25_2022_14-42-34 tripadvisor_reviews.json extra columns were extracted to stage/extra_data/tripadvisor_reviews.json.csv 
+At 10_25_2022_14-42-34 tripadvisor_reviews.json has dropped extra columns 
+At 10_25_2022_14-42-34 ubereats_outlet.json column phone added 
+At 10_25_2022_14-42-34 tripadvisor_outlet.json column reviews_nr edited 
+ tripadvisor_user.json  column likes edited 
+ ubereats_menu.json column volume edited
+At 10_25_2022_14-42-34 tripadvisor_outlet.json column reviews_nr type change to int64 
+ tripadvisor_user.json column likes type change to int64 
+ ubereats_menu.json column volume type change to int64
+ ubereats_outlet.json column phone type change to object
+At 10_25_2022_14-42-35 tripadvisor_outlet.json saved to stage/transformed_db/tripadvisor_outlet.json.csv  
+At 10_25_2022_14-42-35 tripadvisor_reviews.json saved to stage/transformed_db/tripadvisor_reviews.json.csv  
+At 10_25_2022_14-42-35 tripadvisor_user.json saved to stage/transformed_db/tripadvisor_user.json.csv  
+At 10_25_2022_14-42-35 ubereats_menu.json saved to stage/transformed_db/ubereats_menu.json.csv  
+At 10_25_2022_14-42-35 ubereats_outlet.json saved to stage/transformed_db/ubereats_outlet.json.csv  
